@@ -1,0 +1,21 @@
+flowchart TD
+    A[Voice Input] --> B[Audio Capture]
+    B --> C[Speech Recognition<br/>OpenAI Whisper]
+    C --> D[Text Transcription]
+    D --> E[Cognitive Planning<br/>LLM]
+    E --> F[Action Sequence Generation]
+    F --> G[Path Planning]
+    G --> H[Navigation Actions<br/>ROS 2]
+    H --> I[Obstacle Navigation]
+    I --> J[Object Detection<br/>Computer Vision]
+    J --> K[Object Identification]
+    K --> L[Manipulation Actions<br/>ROS 2]
+    L --> M[Physical Action]
+    
+    style A fill:#e1f5ff
+    style C fill:#fff4e1
+    style E fill:#fff4e1
+    style H fill:#e8f5e9
+    style L fill:#e8f5e9
+    style M fill:#fce4ec
+

@@ -1,0 +1,17 @@
+flowchart TD
+    A[Audio Capture] --> B[Microphone Input]
+    B --> C[Audio Preprocessing]
+    C --> D[OpenAI Whisper]
+    D --> E[Speech Recognition]
+    E --> F[Text Transcription]
+    F --> G[Text Normalization]
+    G --> H[Cognitive Planning System]
+    H --> I[Action Generation]
+    I --> J[ROS 2 Actions]
+    J --> K[Robot Execution]
+    
+    style A fill:#e1f5ff
+    style D fill:#fff4e1
+    style H fill:#e8f5e9
+    style K fill:#fce4ec
+

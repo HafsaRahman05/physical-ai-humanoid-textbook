@@ -1,0 +1,192 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-12-06",
+  "terms": [
+    {
+      "term": "Physical AI",
+      "urdu_translation": "جسمانی مصنوعی ذہانت",
+      "urdu_transliteration": null,
+      "usage": "translation",
+      "english_in_parentheses": false,
+      "notes": "Translate to Urdu, no English in parentheses"
+    },
+    {
+      "term": "Humanoid Robotics",
+      "urdu_translation": "انسانی روبوٹکس",
+      "urdu_transliteration": null,
+      "usage": "translation",
+      "english_in_parentheses": false,
+      "notes": "Translate to Urdu, no English in parentheses"
+    },
+    {
+      "term": "ROS 2",
+      "urdu_translation": null,
+      "urdu_transliteration": null,
+      "usage": "keep_in_english",
+      "english_in_parentheses": false,
+      "notes": "Acronym - keep in English, no parentheses"
+    },
+    {
+      "term": "Robot Operating System 2",
+      "urdu_translation": null,
+      "urdu_transliteration": null,
+      "usage": "keep_in_english",
+      "english_in_parentheses": false,
+      "notes": "Proper noun/technical term - keep in English"
+    },
+    {
+      "term": "communication framework",
+      "urdu_translation": "مواصلاتی فریم ورک",
+      "urdu_transliteration": null,
+      "usage": "translation",
+      "english_in_parentheses": false,
+      "notes": "Used in intro.md"
+    },
+    {
+      "term": "sensors",
+      "urdu_translation": "حساسات",
+      "urdu_transliteration": null,
+      "usage": "translation",
+      "english_in_parentheses": false,
+      "notes": "Used in intro.md"
+    },
+    {
+      "term": "actuators",
+      "urdu_translation": "عمل کار",
+      "urdu_transliteration": null,
+      "usage": "translation",
+      "english_in_parentheses": false,
+      "notes": "Used in intro.md"
+    },
+    {
+      "term": "topics",
+      "urdu_translation": null,
+      "urdu_transliteration": null,
+      "usage": "keep_in_english",
+      "english_in_parentheses": false,
+      "notes": "ROS 2 domain-specific term - keep in English"
+    },
+    {
+      "term": "services",
+      "urdu_translation": null,
+      "urdu_transliteration": null,
+      "usage": "keep_in_english",
+      "english_in_parentheses": false,
+      "notes": "ROS 2 domain-specific term - keep in English"
+    },
+    {
+      "term": "actions",
+      "urdu_translation": null,
+      "urdu_transliteration": null,
+      "usage": "keep_in_english",
+      "english_in_parentheses": false,
+      "notes": "ROS 2 domain-specific term - keep in English"
+    },
+    {
+      "term": "Python",
+      "urdu_translation": null,
+      "urdu_transliteration": null,
+      "usage": "keep_in_english",
+      "english_in_parentheses": false,
+      "notes": "Proper noun/brand name - keep in English"
+    },
+    {
+      "term": "modules",
+      "urdu_translation": null,
+      "urdu_transliteration": null,
+      "usage": "keep_in_english",
+      "english_in_parentheses": false,
+      "notes": "Domain-specific term - keep in English"
+    },
+    {
+      "term": "communication",
+      "urdu_translation": "مواصلات",
+      "urdu_transliteration": null,
+      "usage": "translation",
+      "english_in_parentheses": false,
+      "notes": "Translate to Urdu"
+    },
+    {
+      "term": "communication framework",
+      "urdu_translation": "مواصلاتی فریم ورک",
+      "urdu_transliteration": null,
+      "usage": "translation",
+      "english_in_parentheses": false,
+      "notes": "Translate to Urdu"
+    },
+    {
+      "term": "communication patterns",
+      "urdu_translation": "مواصلاتی نمونے",
+      "urdu_transliteration": null,
+      "usage": "translation",
+      "english_in_parentheses": false,
+      "notes": "Translate to Urdu"
+    },
+    {
+      "term": "middleware",
+      "urdu_translation": null,
+      "urdu_transliteration": null,
+      "usage": "keep_in_english",
+      "english_in_parentheses": false,
+      "notes": "Technical domain term - keep in English"
+    },
+    {
+      "term": "nodes",
+      "urdu_translation": null,
+      "urdu_transliteration": null,
+      "usage": "keep_in_english",
+      "english_in_parentheses": false,
+      "notes": "ROS 2 domain-specific term - keep in English"
+    },
+    {
+      "term": "IMUs",
+      "urdu_translation": null,
+      "urdu_transliteration": null,
+      "usage": "keep_in_english",
+      "english_in_parentheses": false,
+      "notes": "Acronym - Inertial Measurement Units, keep in English"
+    },
+    {
+      "term": "publish-subscribe",
+      "urdu_translation": null,
+      "urdu_transliteration": null,
+      "usage": "keep_in_english",
+      "english_in_parentheses": false,
+      "notes": "ROS 2 communication pattern - keep in English"
+    },
+    {
+      "term": "request-response",
+      "urdu_translation": null,
+      "urdu_transliteration": null,
+      "usage": "keep_in_english",
+      "english_in_parentheses": false,
+      "notes": "ROS 2 communication pattern - keep in English"
+    },
+    {
+      "term": "action-based",
+      "urdu_translation": null,
+      "urdu_transliteration": null,
+      "usage": "keep_in_english",
+      "english_in_parentheses": false,
+      "notes": "ROS 2 communication pattern - keep in English"
+    },
+    {
+      "term": "distributed computing",
+      "urdu_translation": null,
+      "urdu_transliteration": null,
+      "usage": "keep_in_english",
+      "english_in_parentheses": false,
+      "notes": "Technical domain term - keep in English"
+    },
+    {
+      "term": "workspace",
+      "urdu_translation": null,
+      "urdu_transliteration": null,
+      "usage": "keep_in_english",
+      "english_in_parentheses": false,
+      "notes": "ROS 2 domain-specific term - keep in English"
+    }
+  ],
+  "notes": "Shared glossary/term bank for technical terms and their Urdu translations/transliterations. Terms are added incrementally during translation process."
+}
+

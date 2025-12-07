@@ -1,0 +1,17 @@
+graph LR
+    A[3D Environment<br/>Models & Materials] --> B[Photorealistic<br/>Rendering]
+    B --> C[RGB Image]
+    B --> D[Depth Map]
+    B --> E[Semantic Labels]
+    B --> F[Bounding Boxes]
+    C --> G[Training Dataset]
+    D --> G
+    E --> G
+    F --> G
+    G --> H[Perception<br/>Algorithm Training]
+    
+    style A fill:#e1f5ff
+    style B fill:#fff4e1
+    style G fill:#e8f5e9
+    style H fill:#fce4ec
+

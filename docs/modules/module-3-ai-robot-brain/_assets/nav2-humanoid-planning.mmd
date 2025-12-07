@@ -1,0 +1,21 @@
+graph TB
+    A[Start Position] --> B[Environment<br/>Map]
+    C[Goal Position] --> B
+    B --> D[Path Search<br/>Algorithm]
+    D --> E[Balance<br/>Validation]
+    E --> F[Foot Placement<br/>Validation]
+    F --> G[Terrain<br/>Validation]
+    G --> H{Valid<br/>Path?}
+    H -->|No| D
+    H -->|Yes| I[Step Sequence]
+    I --> J[Path<br/>Execution]
+    
+    K[Perception<br/>System] -.-> B
+    K -.-> L[Robot<br/>Pose]
+    L -.-> A
+    
+    style B fill:#e1f5ff
+    style D fill:#fff4e1
+    style I fill:#e8f5e9
+    style J fill:#fce4ec
+

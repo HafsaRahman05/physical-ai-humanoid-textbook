@@ -1,0 +1,14 @@
+graph TB
+    A[Physical Humanoid Robot] <-->|Synchronize State| B[Digital Twin]
+    B -->|Simulate| C[Simulation Environment]
+    C -->|Test Scenarios| D[Optimization Engine]
+    D -->|Optimized Parameters| B
+    B -->|Validated Strategies| A
+    E[Sensor Data] -->|Real-time Updates| B
+    B -->|Predictions| F[Maintenance System]
+    
+    style A fill:#e1f5ff
+    style B fill:#fff4e1
+    style C fill:#e8f5e9
+    style D fill:#fce4ec
+

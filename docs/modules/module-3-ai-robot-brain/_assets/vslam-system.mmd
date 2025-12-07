@@ -1,0 +1,18 @@
+graph TB
+    A[Camera<br/>Images] --> B[Feature<br/>Extraction]
+    B --> C[Feature<br/>Tracking]
+    C --> D[Motion<br/>Estimation]
+    D --> E[Map<br/>Building]
+    E --> F[Map<br/>Optimization]
+    F --> G[Localization]
+    G --> H[Robot<br/>Pose]
+    
+    I[GPU<br/>Acceleration] -.-> B
+    I -.-> C
+    I -.-> E
+    I -.-> F
+    
+    style A fill:#e1f5ff
+    style I fill:#fff4e1
+    style H fill:#e8f5e9
+

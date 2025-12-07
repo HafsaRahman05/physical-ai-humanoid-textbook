@@ -1,0 +1,17 @@
+graph LR
+    A[Isaac Sim<br/>Training Data] --> B[Isaac ROS<br/>VSLAM Perception]
+    B --> C[Nav2<br/>Path Planning]
+    C --> D[Humanoid Robot<br/>Navigation]
+    
+    E[Camera<br/>Images] --> B
+    F[Goal<br/>Location] --> C
+    B --> G[Environment<br/>Map]
+    B --> H[Robot<br/>Pose]
+    G --> C
+    H --> C
+    
+    style A fill:#e1f5ff
+    style B fill:#fff4e1
+    style C fill:#ffe1f5
+    style D fill:#e1ffe1
+

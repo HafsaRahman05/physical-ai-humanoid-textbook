@@ -1,0 +1,24 @@
+graph LR
+    A[Vision Sensor] -->|Publish| B[/camera/image_raw]
+    C[IMU Sensor] -->|Publish| D[/imu/data]
+    E[Joint Encoder] -->|Publish| F[/joint_states]
+    G[Tactile Sensor] -->|Publish| H[/tactile/contact]
+    
+    B --> I[Vision Processing Node]
+    D --> J[Balance Control Node]
+    F --> K[Motion Planning Node]
+    H --> L[Grasp Control Node]
+    
+    I --> M[Perception System]
+    J --> M
+    K --> M
+    L --> M
+    M --> N[Decision Making]
+    
+    style A fill:#e1f5ff
+    style C fill:#fff4e1
+    style E fill:#e8f5e9
+    style G fill:#fce4ec
+    style M fill:#f3e5f5
+    style N fill:#e0f2f1
+

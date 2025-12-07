@@ -1,0 +1,60 @@
+[33mcommit fdf43b8b6548744e8d36b52167aeb41ee556a9f8[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32m007-nvidia-isaac[m[33m, [m[1;31morigin/007-nvidia-isaac[m[33m)[m
+Author: Hafsa Rahman <hafsarahman805@gmail.com>
+Date:   Thu Dec 4 21:16:20 2025 +0500
+
+    Add Module 3: The AI-Robot Brain (NVIDIA Isaac™) content
+    
+    - Introduced comprehensive sections on advanced perception, training, and navigation for humanoid robots using NVIDIA Isaac tools.
+    - Added detailed explanations for Isaac Sim, Isaac ROS, and Nav2, including their integration and application in autonomous navigation.
+    - Created supporting documents such as analysis reports, implementation plans, and task lists to guide content development.
+    - Updated sidebar configuration to include new module navigation for improved accessibility.
+
+ .cursor/rules/specify-rules.mdc                    |  29 [32m++[m
+ ANALYSIS_REPORT_MODULE3.md                         | 186 [32m++++++++++[m
+ CLARIFICATION_REPORT.md                            |  66 [32m++++[m
+ MODULE_ANALYSIS_REPORT.md                          | 284 [32m+++++++++++++++[m
+ .../humanoid-applications.md                       | 156 [32m+++++++++[m
+ .../workspace-overview.md                          |  75 [32m++++[m
+ .../_assets/ai-robot-brain-architecture.mmd        |  17 [32m+[m
+ .../_assets/isaac-sim-pipeline.mmd                 |  17 [32m+[m
+ .../_assets/nav2-humanoid-planning.mmd             |  21 [32m++[m
+ .../_assets/vslam-system.mmd                       |  18 [32m+[m
+ .../ai-robot-brain-concept.md                      | 121 [32m+++++++[m
+ docs/modules/module-3-ai-robot-brain/glossary.md   | 140 [32m++++++++[m
+ docs/modules/module-3-ai-robot-brain/index.md      |  68 [32m++++[m
+ .../integrated-applications.md                     | 252 [32m++++++++++++++[m
+ .../module-3-ai-robot-brain/introduction.md        | 105 [32m++++++[m
+ docs/modules/module-3-ai-robot-brain/isaac-ros.md  | 240 [32m+++++++++++++[m
+ docs/modules/module-3-ai-robot-brain/isaac-sim.md  | 249 [32m+++++++++++++[m
+ .../module-3-ai-robot-brain/nav2-path-planning.md  | 255 [32m++++++++++++++[m
+ ...odules-requirements-analysis-a7be945e.prompt.md | 116 [32m+++++++[m
+ ...ing-concepts-content-clarify-d52e1df0.prompt.md |  68 [32m++++[m
+ ...issing-concepts-content-plan-4f2c0e21.prompt.md |  74 [32m++++[m
+ ...issing-concepts-content-spec-45df95b4.prompt.md |  81 [32m+++++[m
+ ...ssing-concepts-content-tasks-8e40013e.prompt.md | 105 [32m++++++[m
+ ...module-3-ai-robot-brain-spec-2406d6e9.prompt.md |  51 [32m+++[m
+ .../module-3-analysis-e480e163.prompt.md           |  55 [32m+++[m
+ .../module-3-clarify-session-9f0f022d.prompt.md    |  39 [32m+++[m
+ ...le-3-implementation-planning-2815ae7b.prompt.md |  78 [32m+++++[m
+ .../module-3-task-generation-56960555.prompt.md    |  64 [32m++++[m
+ sidebars.ts                                        |  14 [32m+[m
+ specs/005-complete-module-content/spec.md          | 115 [32m++++++[m
+ .../checklists/requirements.md                     |  38 [32m++[m
+ .../plan/contracts/content-structure.md            | 364 [32m+++++++++++++++++++[m
+ .../plan/data-model.md                             | 315 [32m+++++++++++++++++[m
+ specs/006-missing-concepts-content/plan/plan.md    | 207 [32m+++++++++++[m
+ .../plan/quickstart.md                             | 254 [32m++++++++++++++[m
+ .../006-missing-concepts-content/plan/research.md  | 384 [32m+++++++++++++++++++++[m
+ specs/006-missing-concepts-content/spec.md         | 237 [32m+++++++++++++[m
+ specs/006-missing-concepts-content/tasks.md        | 201 [32m+++++++++++[m
+ specs/007-nvidia-isaac/ANALYSIS_REPORT.md          | 186 [32m++++++++++[m
+ specs/007-nvidia-isaac/checklists/requirements.md  |  40 [32m+++[m
+ specs/007-nvidia-isaac/plan.md                     | 239 [32m+++++++++++++[m
+ .../plan/contracts/content-structure.md            | 354 [32m+++++++++++++++++++[m
+ specs/007-nvidia-isaac/plan/data-model.md          | 281 [32m+++++++++++++++[m
+ specs/007-nvidia-isaac/plan/plan.md                | 239 [32m+++++++++++++[m
+ specs/007-nvidia-isaac/plan/quickstart.md          | 321 [32m+++++++++++++++++[m
+ specs/007-nvidia-isaac/plan/research.md            | 295 [32m++++++++++++++++[m
+ specs/007-nvidia-isaac/spec.md                     | 193 [32m+++++++++++[m
+ specs/007-nvidia-isaac/tasks.md                    | 247 [32m+++++++++++++[m
+ 48 files changed, 7554 insertions(+)
