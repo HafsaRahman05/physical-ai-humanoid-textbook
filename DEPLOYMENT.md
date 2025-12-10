@@ -14,7 +14,7 @@
 After creating the repository, GitHub will show you commands. Run these in your terminal:
 
 ```powershell
-cd "C:\Users\HP\Desktop\Physical-AI-Humanoid-Robotics-Textbook-main"
+cd "C:\Users\HP\Desktop\Physical-AI-Humanoid-Robotics-Textbook"
 git remote add origin https://github.com/HafsaRahman05/physical-ai-humanoid-textbook.git
 git push -u origin main
 ```
