@@ -13,7 +13,10 @@ const config: Config = {
 
   // GitHub Pages configuration
   url: 'https://HafsaRahman05.github.io', // ✅ apna username
-  baseUrl: '/physical-ai-humanoid-textbook/', // ✅ apna repo name
+  baseUrl: '/', // ✅ apna repo name
+  docs: {
+  routeBasePath: '/', 
+  },
   trailingSlash: false,
 
   // GitHub pages deployment config
