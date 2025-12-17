@@ -12,7 +12,7 @@ const config: Config = {
   },
 
   // ✅ Vercel deployment config
-  url: 'https://physical-ai-humanoid-textbook.vercel.app',
+  url: 'https://physical-ai-humanoid-textbook-livid.vercel.app',
   baseUrl: '/',                 // ✅ MUST be /
   trailingSlash: false,
 
