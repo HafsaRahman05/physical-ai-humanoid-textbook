@@ -1,5 +1,5 @@
-import { themes as prismThemes } from 'prism-react-renderer';
-import type { Config } from '@docusaurus/types';
+import {themes as prismThemes} from 'prism-react-renderer';
+import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
@@ -11,17 +11,34 @@ const config: Config = {
     v4: true,
   },
 
-  // ✅ Vercel deployment config
-  url: 'https://physical-ai-humanoid-textbook-livid.vercel.app',
-  baseUrl: '/',                 // ✅ MUST be /
+  // GitHub Pages configuration
+  url: 'https://HafsaRahman05.github.io', 
+  baseUrl: '/physical-ai-humanoid-textbook/', 
   trailingSlash: false,
 
+  // GitHub pages deployment config
+  organizationName: 'HafsaRahman05', 
+  projectName: 'physical-ai-humanoid-textbook', 
+
   onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
 
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'ur'],
+    localeConfigs: {
+      en: {
+        label: 'English',
+        direction: 'ltr',
+        htmlLang: 'en-US',
+        calendar: 'gregory',
+      },
+      ur: {
+        label: 'اردو',
+        direction: 'rtl',
+        htmlLang: 'ur',
+        calendar: 'gregory',
+      },
+    },
   },
 
   presets: [
@@ -30,9 +47,10 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          routeBasePath: '/',   // ✅ Docs at root
+          routeBasePath: '/', 
+          editUrl: undefined, 
         },
-        blog: false,
+        blog: false, 
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -41,8 +59,16 @@ const config: Config = {
   ],
 
   themeConfig: {
+    image: 'img/docusaurus-social-card.jpg',
+    colorMode: {
+      respectPrefersColorScheme: true,
+    },
     navbar: {
       title: 'Physical AI Humanoid Robotics',
+      logo: {
+        alt: 'Physical AI Humanoid Robotics Logo',
+        src: 'img/logo.svg',
+      },
       items: [
         {
           type: 'docSidebar',
@@ -55,18 +81,36 @@ const config: Config = {
           position: 'right',
         },
         {
-          href: 'https://github.com/HafsaRahman05/physical-ai-humanoid-textbook',
+          href: 'https://github.com/HafsaRahman05/physical-ai-humanoid-textbook', // ✅ apna repo
           label: 'GitHub',
           position: 'right',
         },
       ],
     },
-
     footer: {
       style: 'dark',
-      copyright: `Copyright © ${new Date().getFullYear()} Physical AI Humanoid Robotics Textbook.`,
+      links: [
+        {
+          title: 'Modules',
+          items: [
+            {
+              label: 'Module 1: ROS 2 Nervous System',
+              to: '/modules/module-1-ros2-nervous-system/',
+            },
+          ],
+        },
+        {
+          title: 'Resources',
+          items: [
+            {
+              label: 'GitHub',
+              href: 'https://github.com/HafsaRahman05/physical-ai-humanoid-textbook', // ✅ apna repo
+            },
+          ],
+        },
+      ],
+      copyright: `Copyright © ${new Date().getFullYear()} Physical AI Humanoid Robotics Textbook. Built with Docusaurus.`,
     },
-
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
