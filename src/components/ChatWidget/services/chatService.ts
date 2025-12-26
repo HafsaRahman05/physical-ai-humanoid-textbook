@@ -10,7 +10,7 @@ import type {ChatRequest, ChatResponse, ErrorInfo} from '../types';
  * Production: Hugging Face Spaces deployment
  * Development: Local FastAPI server
  */
-const API_BASE_URL = 'https://hafsarahman05-humanoid-robotics-chatbot.hf.space'
+const API_BASE_URL = 'https://hafsa05-humanoid-robotics-chatbot.hf.space'
 
 /**
  * Request timeout duration in milliseconds (30 seconds)
